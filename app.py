@@ -55,6 +55,7 @@ def career():
     return render_template("career.html", page_title="My Careers Page")
 
 
+# Py app.py start dev server
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
